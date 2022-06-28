@@ -1,0 +1,9 @@
+Using postman create GET with Auth and token and try to login and chekc the status of the request
+
+
+Try using Get to get the repo from the github and the details in the repo.
+
+
+JSON details:
+
+https://www.getpostman.com/collections/e9f2c95946c8afeaf754
