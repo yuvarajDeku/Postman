@@ -1,0 +1,9 @@
+Token Generate:
+
+Step 1: Login to your  Github-->  Setings.
+Step 2: Click the Developer Settings--> Personal Access Token.
+Generate Token
+
+Copy and paste in the Collection TOken .
+
+It will inherite the Token to the Request Created under the Collections.
