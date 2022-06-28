@@ -1,0 +1,253 @@
+GET WITH USERNAME:
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+pm.sendRequest("https://postman-echo.com/get", function (err, response) {
+    console.log(response.json("Checking the Github"));
+});
+
+
+
+
+BODY WITH STATUS CODE 200:
+
+[
+    {
+        "id": 508255447,
+        "node_id": "R_kgDOHktc1w",
+        "name": "Dummy",
+        "full_name": "yuvarajDeku/Dummy",
+        "private": false,
+        "owner": {
+            "login": "yuvarajDeku",
+            "id": 108336310,
+            "node_id": "U_kgDOBnUUtg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/108336310?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yuvarajDeku",
+            "html_url": "https://github.com/yuvarajDeku",
+            "followers_url": "https://api.github.com/users/yuvarajDeku/followers",
+            "following_url": "https://api.github.com/users/yuvarajDeku/following{/other_user}",
+            "gists_url": "https://api.github.com/users/yuvarajDeku/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/yuvarajDeku/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/yuvarajDeku/subscriptions",
+            "organizations_url": "https://api.github.com/users/yuvarajDeku/orgs",
+            "repos_url": "https://api.github.com/users/yuvarajDeku/repos",
+            "events_url": "https://api.github.com/users/yuvarajDeku/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/yuvarajDeku/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "html_url": "https://github.com/yuvarajDeku/Dummy",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/yuvarajDeku/Dummy",
+        "forks_url": "https://api.github.com/repos/yuvarajDeku/Dummy/forks",
+        "keys_url": "https://api.github.com/repos/yuvarajDeku/Dummy/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/yuvarajDeku/Dummy/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/yuvarajDeku/Dummy/teams",
+        "hooks_url": "https://api.github.com/repos/yuvarajDeku/Dummy/hooks",
+        "issue_events_url": "https://api.github.com/repos/yuvarajDeku/Dummy/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/yuvarajDeku/Dummy/events",
+        "assignees_url": "https://api.github.com/repos/yuvarajDeku/Dummy/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/yuvarajDeku/Dummy/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/yuvarajDeku/Dummy/tags",
+        "blobs_url": "https://api.github.com/repos/yuvarajDeku/Dummy/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/yuvarajDeku/Dummy/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/yuvarajDeku/Dummy/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/yuvarajDeku/Dummy/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/yuvarajDeku/Dummy/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/yuvarajDeku/Dummy/languages",
+        "stargazers_url": "https://api.github.com/repos/yuvarajDeku/Dummy/stargazers",
+        "contributors_url": "https://api.github.com/repos/yuvarajDeku/Dummy/contributors",
+        "subscribers_url": "https://api.github.com/repos/yuvarajDeku/Dummy/subscribers",
+        "subscription_url": "https://api.github.com/repos/yuvarajDeku/Dummy/subscription",
+        "commits_url": "https://api.github.com/repos/yuvarajDeku/Dummy/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/yuvarajDeku/Dummy/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/yuvarajDeku/Dummy/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/yuvarajDeku/Dummy/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/yuvarajDeku/Dummy/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/yuvarajDeku/Dummy/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/yuvarajDeku/Dummy/merges",
+        "archive_url": "https://api.github.com/repos/yuvarajDeku/Dummy/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/yuvarajDeku/Dummy/downloads",
+        "issues_url": "https://api.github.com/repos/yuvarajDeku/Dummy/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/yuvarajDeku/Dummy/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/yuvarajDeku/Dummy/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/yuvarajDeku/Dummy/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/yuvarajDeku/Dummy/labels{/name}",
+        "releases_url": "https://api.github.com/repos/yuvarajDeku/Dummy/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/yuvarajDeku/Dummy/deployments",
+        "created_at": "2022-06-28T10:36:15Z",
+        "updated_at": "2022-06-28T10:36:15Z",
+        "pushed_at": "2022-06-28T10:36:16Z",
+        "git_url": "git://github.com/yuvarajDeku/Dummy.git",
+        "ssh_url": "git@github.com:yuvarajDeku/Dummy.git",
+        "clone_url": "https://github.com/yuvarajDeku/Dummy.git",
+        "svn_url": "https://github.com/yuvarajDeku/Dummy",
+        "homepage": null,
+        "size": 0,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": true,
+        "has_projects": true,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "archived": false,
+        "disabled": false,
+        "open_issues_count": 0,
+        "license": null,
+        "allow_forking": true,
+        "is_template": false,
+        "topics": [],
+        "visibility": "public",
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "main",
+        "permissions": {
+            "admin": true,
+            "maintain": true,
+            "push": true,
+            "triage": true,
+            "pull": true
+        }
+    },
+    {
+        "id": 508253393,
+        "node_id": "R_kgDOHktU0Q",
+        "name": "Postmantraining",
+        "full_name": "yuvarajDeku/Postmantraining",
+        "private": false,
+        "owner": {
+            "login": "yuvarajDeku",
+            "id": 108336310,
+            "node_id": "U_kgDOBnUUtg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/108336310?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yuvarajDeku",
+            "html_url": "https://github.com/yuvarajDeku",
+            "followers_url": "https://api.github.com/users/yuvarajDeku/followers",
+            "following_url": "https://api.github.com/users/yuvarajDeku/following{/other_user}",
+            "gists_url": "https://api.github.com/users/yuvarajDeku/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/yuvarajDeku/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/yuvarajDeku/subscriptions",
+            "organizations_url": "https://api.github.com/users/yuvarajDeku/orgs",
+            "repos_url": "https://api.github.com/users/yuvarajDeku/repos",
+            "events_url": "https://api.github.com/users/yuvarajDeku/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/yuvarajDeku/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "html_url": "https://github.com/yuvarajDeku/Postmantraining",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/yuvarajDeku/Postmantraining",
+        "forks_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/forks",
+        "keys_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/teams",
+        "hooks_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/hooks",
+        "issue_events_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/events",
+        "assignees_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/tags",
+        "blobs_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/languages",
+        "stargazers_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/stargazers",
+        "contributors_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/contributors",
+        "subscribers_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/subscribers",
+        "subscription_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/subscription",
+        "commits_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/merges",
+        "archive_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/downloads",
+        "issues_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/labels{/name}",
+        "releases_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/yuvarajDeku/Postmantraining/deployments",
+        "created_at": "2022-06-28T10:28:57Z",
+        "updated_at": "2022-06-28T10:28:57Z",
+        "pushed_at": "2022-06-28T10:28:58Z",
+        "git_url": "git://github.com/yuvarajDeku/Postmantraining.git",
+        "ssh_url": "git@github.com:yuvarajDeku/Postmantraining.git",
+        "clone_url": "https://github.com/yuvarajDeku/Postmantraining.git",
+        "svn_url": "https://github.com/yuvarajDeku/Postmantraining",
+        "homepage": null,
+        "size": 0,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": true,
+        "has_projects": true,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "archived": false,
+        "disabled": false,
+        "open_issues_count": 0,
+        "license": null,
+        "allow_forking": true,
+        "is_template": false,
+        "topics": [],
+        "visibility": "public",
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "main",
+        "permissions": {
+            "admin": true,
+            "maintain": true,
+            "push": true,
+            "triage": true,
+            "pull": true
+        }
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEST CASE USER WITH AUTH TOKEN:
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+pm.test("Body matches string", function () {
+    pm.expect(pm.response.text()).to.include("Dummy");
+});
+
+
+
+
+
