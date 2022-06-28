@@ -8,7 +8,10 @@ pm.sendRequest("https://postman-echo.com/get", function (err, response) {
 });
 
 
-
+PASS
+Status code is 200
+PASS
+Body matches string
 
 BODY WITH STATUS CODE 200:
 
